@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:language_app/Views/home/Language.dart';
+import 'package:language_app/Views/home/auth_module/sigin_screen.dart';
 import 'package:lottie/lottie.dart';
 
 class Splashscreen extends StatefulWidget {
@@ -17,7 +17,7 @@ class _SplashscreenState extends State<Splashscreen> {
     Future.delayed(Duration(seconds: 6), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => Language()),
+        MaterialPageRoute(builder: (context) => SigninScreen()),
       );
     });
   }

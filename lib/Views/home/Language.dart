@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:language_app/Views/home/LessonScreen.dart';
 import 'package:language_app/Views/home/QuizScreen.dart';
 import 'package:language_app/Views/home/progressScreen.dart';
