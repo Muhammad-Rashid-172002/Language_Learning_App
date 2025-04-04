@@ -12,10 +12,7 @@ class OnboardingScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(
-              'assets/images/istockphoto-1263089161-612x612.jpg',
-              height: 300,
-            ),
+            Image.asset('assets/images/Untitled.png', height: 300),
             SizedBox(height: 30),
             Text(
               "Learn New Languages",

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:language_app/Views/home/auth_module/sigin_screen.dart';
 import 'package:language_app/Views/home/onboarding/onbording_screen.dart';
 import 'package:lottie/lottie.dart';
 
@@ -34,7 +33,7 @@ class _SplashscreenState extends State<Splashscreen> {
             Lottie.asset('assets/Animation/SplashScreen.json'),
             SizedBox(height: 20),
             Text(
-              '"Learn a New Language with Confidence\nStart Your Journey Today"',
+              'Learn a New Language with Confidence\nStart Your Journey Today',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
