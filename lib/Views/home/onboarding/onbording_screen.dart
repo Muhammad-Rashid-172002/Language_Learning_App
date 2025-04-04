@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:language_app/Views/home/Language.dart';
+import 'package:language_app/Views/home/auth_module/sigin_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   @override
@@ -35,7 +35,7 @@ class OnboardingScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Language()),
+                    MaterialPageRoute(builder: (context) => SigninScreen()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
